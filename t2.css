@@ -27,7 +27,7 @@ body {
 
 .content {
     font-size: 108px;
-    padding: 200px 0;
+    /* padding: 200px 0; */
     text-align: center;
     width: 100%;
     margin: 0 auto;

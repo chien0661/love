@@ -421,8 +421,10 @@ container.addEventListener("click", () => {
   document.querySelector("#heart").hidden=false
   document.querySelector("body").style.backgroundColor="#542246"
   document.querySelector("#heart").hidden=false
-  fadeIn()
   audio.play()
+  setTimeout(() => {
+    fadeIn()
+  }, 600)
 })
 
 
